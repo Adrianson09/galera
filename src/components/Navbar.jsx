@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { LogoGalera } from "../../public/logo-galera-white.png"
+import  logo  from "../../src/assets/images/logo-galera-white.png"
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
@@ -29,7 +29,7 @@ export const Navbar = () => {
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <img src={LogoGalera} alt="Logo Galera" width={150} height={100}/>
+                <img src={logo} alt="Logo Galera" width={150} height={100}/>
               </div>
               
             </div>
