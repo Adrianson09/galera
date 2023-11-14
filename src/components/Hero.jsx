@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
-import dashboard from "../assets/images/dashboard.jpg";
+import dashboard from "../assets/images/portada.jpeg";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,11 +13,12 @@ export const Hero = () => {
 
         
      
-    {/* <img src="../../src/assets/images/portada.jpeg" alt="test" /> */}
-    <section 
+    <img id="home" className="flex mx-auto w-full h-full pt-20 mb-20" src={dashboard} alt="test" />
+    {/* <section 
       className="bg-[url('../../src/assets/images/portada.jpeg')] sm:mb-[2rem] bg-cover  bg-no-repeat bg-center  w-screen  flex justify-center items-center bg-customDarkBg1 mb-[2rem] md:mb-[2rem] lg:mb-[2rem] xl:mb-[2rem] 2xl:mb-14 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
+       
       <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -69,7 +70,7 @@ export const Hero = () => {
       {isModalOpen && (
         <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
       )}
-    </section>
+    </section> */}
     </>
   );
 };
