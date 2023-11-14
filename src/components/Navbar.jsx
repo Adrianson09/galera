@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { LogoGalera } from "../assets/images/logo-galera-white.png"
+import { LogoGalera } from "../../public/logo-galera-white.png"
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
